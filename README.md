@@ -3,7 +3,7 @@
 **Status**: Early development — transparent public research
 
 ## Purpose
-This project explores corporate transparency and accountability using open data sources such as [OpenCorporates](https://opencorporates.com/).  
+This project explores corporate transparency and accountability using open data sources (e.g., CourtListener, OpenCorporates).  
 The goal is to build a public-facing OSINT framework that:
 - Increases access to company data for civic and research purposes
 - Provides reproducible tools for investigative analysis
@@ -11,7 +11,7 @@ The goal is to build a public-facing OSINT framework that:
 
 ## Current Progress
 - Established repository for open publication of scripts, notebooks, and methods
-- Built first test queries against OpenCorporates API
+- Built first test queries against public data APIs
 - Developing tools for automated collection and cross-reference
 
 ## Planned Next Steps
@@ -20,15 +20,15 @@ The goal is to build a public-facing OSINT framework that:
 - Publish reports on findings for public review
 
 ## Civic/NGO Alignment
-This is a **non-commercial project** aligned with civic transparency and investigative journalism.  
-All outputs will be openly published for public benefit.
+This is a **non-commercial project** aligned with civic transparency and investigative research.  
+All outputs are published openly for public benefit.
 
 ---
 
 ## Usage
 
 Clone the repo:
-
 ```bash
 git clone https://github.com/TraceFantome/aegis-onsit.git
 cd aegis-onsit
+
