@@ -37,13 +37,18 @@ All outputs are published openly for public benefit.
 
 ---
 
+## License
+**All Rights Reserved**  
+No copying, modification, or redistribution without written permission.
+
+![License: All Rights Reserved](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+
+---
+
 ## Usage
 
 Clone the repository:
 ```bash
 git clone https://github.com/TraceFantome/aegis-osint.git
 cd aegis-osint
-Create and activate a virtual environment:
-```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+
