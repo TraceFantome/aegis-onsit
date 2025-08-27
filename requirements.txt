@@ -1,3 +1,12 @@
+# Core
+python-dotenv
 requests
 pandas
-jupyter
+
+# Jupyter UI (pick one; jupyterlab is modern)
+jupyterlab
+# notebook
+
+# Lint/format (optional but recommended)
+black
+ruff

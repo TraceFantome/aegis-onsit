@@ -1,6 +1,26 @@
+# Python
 __pycache__/
 *.py[cod]
-.venv/
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+.ipynb_checkpoints/
+
+# Envs
 .env
-.ipynb_checkpoints
+.venv
+venv/
+ENV/
+env/
+
+# OS cruft
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

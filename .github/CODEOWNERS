@@ -1,0 +1,4 @@
+# CODEOWNERS: enforce that all changes are reviewed by you
+# Format: file pattern  owner(s)
+
+*   @TraceFantome

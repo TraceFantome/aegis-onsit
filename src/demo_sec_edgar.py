@@ -1,9 +1,11 @@
-import requests
-import pandas as pd
 import os
+
+import pandas as pd
+import requests
 
 BASE = "https://data.sec.gov/submissions/CIK0000320193.json"  # Apple Inc
 UA = os.environ.get("AEGIS_UA", "Aegis-OSINT/0.1 (+contact: tracefantome@pm.me)")
+
 
 def fetch():
     headers = {"User-Agent": UA}
@@ -16,6 +18,7 @@ def fetch():
     df = pd.DataFrame(filings)
     keep = ["accessionNumber", "filingDate", "form", "primaryDocDescription"]
     return df[keep]
+
 
 if __name__ == "__main__":
     df = fetch()
